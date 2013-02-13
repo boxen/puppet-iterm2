@@ -1,9 +1,5 @@
 # iTerm2 Puppet Module for Boxen
 
-Requires the following boxen modules:
-
-* `boxen`
-
 ## Usage
 
 ```puppet
@@ -13,3 +9,9 @@ include iterm2::stable
 # Dev release
 include iterm2::dev
 ```
+
+## Required Puppet Modules
+
+* boxen
+* stdlib
+
