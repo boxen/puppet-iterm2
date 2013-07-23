@@ -4,8 +4,8 @@
 #
 #   include iterm2::dev
 class iterm2::dev {
-  package { 'iTerm-dev-1_0_0_20130319':
-    source   => 'http://iterm2.googlecode.com/files/iTerm2-1_0_0_20130319.zip',
+  package { 'iTerm2-1_0_0_20130624':
+    source   => 'http://www.iterm2.com/downloads/beta/iTerm2-1_0_0_20130624.zip',
     provider => 'compressed_app'
   }
 }
