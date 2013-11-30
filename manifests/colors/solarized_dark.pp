@@ -1,8 +1,8 @@
-# Public: Imports the Solarized Light colorscheme
+# Public: Imports the Solarized Dark colorscheme
 #
 # Usage:
 #
-#   include iterm2::colors::solarized::dark
+#   include iterm2::colors::solarized_dark
 class iterm2::colors::solarized_dark (
   $ansi_0_color = [
     0.0,
