@@ -161,11 +161,6 @@ describe 'iterm2::colors' do
   end
 
   it do
-    puts "\n"
-    puts "\n"
-    puts expected_command
-    puts "\n"
-    puts "\n"
     should contain_exec(title).with_command(expected_command);
   end
 end
