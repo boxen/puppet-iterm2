@@ -1,4 +1,4 @@
-define iterm2::colors(
+define iterm2::colors (
   $ansi_0_color,
   $ansi_1_color,
   $ansi_2_color,
