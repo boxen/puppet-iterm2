@@ -1,5 +1,6 @@
 # iTerm2 Puppet Module for Boxen
-[![Build+Status]]()
+
+[![build status img]][build status url]
 
 ## Usage
 
@@ -29,8 +30,8 @@ Configuring iTerm2 has never been easier.
 #### Colors
 
 This module merely includes the ability to import colorschemes. In order to
-actually use it, you will need to select it from the list of available
-colorschemes in your iTerm2 preferences.
+actually use a colorscheme, you will need to select it from the list of
+available colorschemes in your iTerm2 preferences.
 
 ##### Predefined Color Schemes
 
@@ -80,7 +81,10 @@ iterm2::colors { 'My Color Scheme':
 
 ## Required Puppet Modules
 
-* boxen
-* stdlib
+* [boxen]
+* [stdlib]
 
-[Build+Status]: https://travis-ci.org/boxen/puppet-iterm2.png?branch=master
+[build status img]: https://travis-ci.org/boxen/puppet-iterm2.png?branch=master
+[build status url]: https://travis-ci.org/boxen/puppet-iterm2
+[boxen]: https://github.com/boxen/puppet-boxen
+[stdlib]: https://github.com/puppetlabs/puppetlabs-stdlib
