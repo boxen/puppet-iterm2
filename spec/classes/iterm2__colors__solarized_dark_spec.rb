@@ -117,7 +117,7 @@ describe 'iterm2::colors::solarized_dark' do
         "0.0",
         "0.15575926005840302",
         "0.19370138645172119",
-      ],
+      ]
     )
   end
 end
