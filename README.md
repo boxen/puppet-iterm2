@@ -47,6 +47,7 @@ include iterm2::colors::arthur
 If you don't see your popular colorscheme listed above, you may define it using
 the technique described below, then send us a pull-request.
 
+
 ##### Creating Color Schemes
 
 Perhaps you want to define your own colorscheme. In this case, you may use the
