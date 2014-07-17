@@ -1,6 +1,6 @@
 # iTerm2 Puppet Module for Boxen
 
-[![build status img]][build status url]
+[![Build Status](https://travis-ci.org/boxen/puppet-iterm2.svg?branch=master)](https://travis-ci.org/boxen/puppet-iterm2)
 
 ## Usage
 
@@ -8,7 +8,7 @@
 
 #### Stable Distribution
 
-This is iTerm2 version 1.0.0; the first full release of iTerm2. 
+This is iTerm2 version 2.0.0; the first full release of iTerm2. 
 
 ```puppet
 include iterm2::stable
