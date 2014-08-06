@@ -3,6 +3,9 @@
 # Usage:
 #
 #   include iterm2::dev
+#
+# or with specific version
+#
 #   class { 'iterm2::dev':
 #     version => '20140421'
 #   }
