@@ -58,5 +58,6 @@ define iterm2::colors (
   exec { $name:
     command => join(split(template('iterm2/colors.erb'), '\n'), ' '),
     unless  => "/usr/libexec/PlistBuddy -c \"print :'Custom Color Presets':'${name}'\" ~/Library/Preferences/com.googlecode.iterm2.plist",
+    require => Package['iTerm'],
   }
 }
