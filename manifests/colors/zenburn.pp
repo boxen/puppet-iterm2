@@ -1,4 +1,4 @@
-# Public: Imports the Solarized Dark colorscheme
+# Public: Imports the Zenburn colorscheme
 #
 # Usage:
 #
