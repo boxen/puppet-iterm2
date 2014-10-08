@@ -10,9 +10,14 @@
 #     version => '2_0'
 #   }
 #
-class iterm2::stable($version='2_0') {
+class iterm2::stable (
+  $ensure  = 'present',
+  $version ='2_0'
+) {
   package { 'iTerm':
-    source   => "http://www.iterm2.com/downloads/stable/iTerm2_v${version}.zip",
-    provider => 'compressed_app'
+    ensure   => $ensure,
+    flavor   => 'zip',
+    provider => 'compressed_app',
+    source   => "http://www.iterm2.com/downloads/stable/iTerm2_v${version}.zip"
   }
 }
