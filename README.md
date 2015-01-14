@@ -40,6 +40,7 @@ inclusion. Here's a list of predefined colorschemes for your pleasure:
 
 ```puppet
 include iterm2::colors::arthur
+include iterm2::colors::piperita
 include iterm2::colors::saturn
 include iterm2::colors::solarized_light
 include iterm2::colors::solarized_dark
